@@ -20,7 +20,7 @@ app.get('/', async (req, res) => {
     };
 
     try {
-        const resp = await axios.get(PageTransitionEventsUrl, { headers });
+        const resp = await axios.get(petsUrl, { headers });
         const data = resp.data.results;
         console.log(data);
         res.render('homepage', { title: 'Pets | HubSpot APIs', data });
