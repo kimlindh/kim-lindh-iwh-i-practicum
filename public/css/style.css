@@ -4,7 +4,7 @@ body, * {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    
+
 }
 
 h1 {
@@ -56,4 +56,103 @@ input[type="submit"] {
     border: none;
     padding: .375rem 1rem;
     margin-top: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #222;
+    background: #f7f7f8;
+    padding: 2rem 1rem;
+    line-height: 1.5;
+}
+
+h1 {
+    margin: 0 auto 1rem;
+    max-width: 768px;
+    font-size: 1.75rem;
+}
+
+a {
+    display: block;
+    max-width: 768px;
+    margin: 0 auto 1.5rem;
+    color: #0066cc;
+}
+
+/* Table */
+table {
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+th {
+    background: #f0f0f2;
+    font-weight: 600;
+}
+
+tbody tr:nth-child(even) {
+    background: #fafafa;
+}
+
+tbody tr:hover {
+    background: #eef4fb;
+}
+
+/* Form */
+.form-wrapper {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+input[type="text"], input[type="number"] {
+    display: block;
+    width: 100%;
+    margin-top: 0.25rem;
+    padding: 0.5rem;
+    font: inherit;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+input[type="submit"] {
+    margin-top: 1.5rem;
+    padding: 0.5rem 1.25rem;
+    font: inherit;
+    color: #fff;
+    background: #0066cc;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #0052a3;
 }
